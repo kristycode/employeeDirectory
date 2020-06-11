@@ -6,18 +6,18 @@ function SearchForm(props) {
   return (
     <form className="search">
       <div className="form-group">
-        <label htmlFor="breed">Breed Name:</label>
+        <label htmlFor="occupation">Breed Name:</label>
         <input
           value={props.search}
           onChange={props.handleInputChange}
-          name="breed"
-          list="breeds"
+          name="occupation"
+          list="occupations"
           type="text"
           className="form-control"
-          placeholder="Type in a dog breed to begin"
-          id="breed"
+          placeholder="Type in an occupation to begin"
+          id="occupation"
         />
-        <datalist id="breeds">
+        <datalist id="occupation">
           {props.breeds.map(breed => (
             <option value={breed} key={breed} />
           ))}
