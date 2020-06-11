@@ -34,7 +34,7 @@ const EmployeesTable = (props) => {
       
         return { employees: sortedEmployees, requestSort, sortConfig };
       };
-      
+
     const { employees, requestSort, sortConfig } = useSortableData(props.employees);
     const getClassNamesFor = (name) => {
       if (!sortConfig) {
@@ -61,7 +61,7 @@ const EmployeesTable = (props) => {
                 onClick={() => requestSort('occupation')}
                 className={getClassNamesFor('occupation')}
               >
-                occupation
+                Occupation
               </button>
             </th>
             <th>
@@ -70,7 +70,7 @@ const EmployeesTable = (props) => {
                 onClick={() => requestSort('location')}
                 className={getClassNamesFor('location')}
               >
-                location
+                Location
               </button>
             </th>
           </tr>

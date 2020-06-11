@@ -1,5 +1,5 @@
 .hero {
-  height: 500px;
+  height: 300px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -24,6 +24,7 @@
 
 .hero h1, .hero h2 {
   color: white;
+  padding-left: 140px;
 }
 
 .hero h1 {

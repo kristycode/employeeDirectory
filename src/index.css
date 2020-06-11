@@ -4,7 +4,7 @@ body {
 }
 
 table {
-  width: 100%;
+  width: 150%;
   border-collapse: collapse;
 }
 
@@ -36,7 +36,7 @@ thead button.descending::after {
 }
 
 tbody td {
-  padding: 0.5em;
+  padding: .5em;
   border-bottom: 1px solid #ccc;
 }
 
